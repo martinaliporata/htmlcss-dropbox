@@ -26,7 +26,7 @@ header .top-header, img {
     padding-right: 2rem;
 }
 
-.jumbotron, .navigator {
+.jumbotron, .navigator, .language{
     padding-left: 20rem;
     padding-right: 20rem;
 }
@@ -170,4 +170,11 @@ h4 {
 
 .li-footer {
     padding-bottom: 1rem;
+}
+
+.language {
+    background-color: black;
+    color: white;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
