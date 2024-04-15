@@ -41,7 +41,7 @@ li {
     flex-direction: row;
 }
 
-.img-jumbotron {
+.img-jumbotron, .img-partner {
     width: 65%;
 }
 
@@ -50,15 +50,21 @@ h1 {
     margin-bottom: 2rem;
 }
 
-.text-jumbotron {
+.text-jumbotron, .text-partner, .text-card {
     margin-bottom: 2rem;
 }
 
-button {
+button.blue {
     background-color: #0061ff;
     color: white;
     padding: 1rem;
     border: none;
+}
+
+button.white {
+    padding: 1rem;
+    border: solid 1px black;
+    background-color: white;
 }
 
 .icon-jumbotron {
@@ -100,4 +106,52 @@ label {
     line-height: 2rem;
     margin-bottom: 2rem;
     padding: 2rem;
+}
+
+.partner {
+    display: flex;
+    flex-direction: row;
+    margin-top: 6rem;
+}
+
+.paragraph-partner {
+    margin-left: 2rem;
+}
+
+.first-cards, .second-cards {
+    display: flex;
+    flex-direction: row;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    margin-right: 2rem;
+}
+
+.img-first-cards, .img-second-cards {
+    width: 80%;
+}
+
+.first-cards {
+    margin-bottom: 2rem;
+}
+
+.second-cards {
+    margin-bottom: 4rem;
+}
+
+.img-clients-first-column, .img-clients-second-column, .img-clients-third-column, .img-clients-fourth-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.img-clients-left, .img-clients-right {
+    display: flex;
+    flex-direction: row;
+}
+
+.logo-clients {
+    display: flex;
+    flex-direction: row;
 }
