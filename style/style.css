@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* non funziona */
+.open-sans- <uniquifier> {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+}
+
+header .top-header, img {
+    display: flex;
+    flex-direction: row;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    padding-right: 2rem;
+}
+
+.jumbotron, footer {
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+
+.jumbotron {
+    margin-top: 3rem;
+}
+
+.paragraph-jumbotron {
+    display: flex;
+    flex-direction: row;
+}
+
+.img-jumbotron {
+    width: 60%;
+}
+
+h1 {
+    font-size: 5rem;
+}
