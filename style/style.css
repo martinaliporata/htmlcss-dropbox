@@ -95,7 +95,7 @@ label {
     padding-right: 2rem;
 }
 
-.choices {
+.choices, .clients-paragraph {
     display: flex;
     flex-direction: row;
 }
@@ -177,4 +177,18 @@ h4 {
     color: white;
     padding-top: 2rem;
     padding-bottom: 2rem;
+}
+
+.logo-clients {
+    display: flex;
+    flex-direction: row;
+}
+
+.logo-first-row, .logo-second-row {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-first-row, .logo-second-row, .logo-third-row, .logo-fourth-row > img {
+    width: 10%;
 }
