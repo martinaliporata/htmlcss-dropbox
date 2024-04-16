@@ -220,6 +220,62 @@ h4 {
     padding-bottom: 1rem;
 }
 
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.align {
+    display: flex;
+    margin-top: 5rem;
+}
+
+.prova1 {
+    background-color: #a2d39b;
+    flex-grow: 1;
+}
+
+.prova2 {
+    background-color: #0093ce;
+    flex-grow: 1;
+}
+
+.prova3 {
+    background-color: #61082b;
+    flex-grow: 1;
+}
+
+.prova4 {
+    background-color: #ff1c1c;
+    flex-grow: 1;
+}
+
+.central {
+    background-color: #f5f5f5;
+    flex-grow: 2;
+    height: 200px;
+}
+
+.prova7 {
+    background-color: #d5001f;
+    flex-grow: 1;
+}
+
+.prova8 {
+    background-color: #0d2481;
+    flex-grow: 1;
+}
+
+.prova9 {
+    background-color: #b4d0e7;
+    flex-grow: 1;
+}
+
+.prova10 {
+    background-color: #ffd830;
+    flex-grow: 1;
+}
+
 .ul-nav-footer {
     display: flex;
     flex-direction: column;
@@ -250,19 +306,4 @@ h4 {
     color: white;
     padding-top: 2rem;
     padding-bottom: 2rem;
-}
-
-.logo-clients {
-    display: flex;
-    flex-direction: column;
-}
-
-.logo-first-row, .logo-second-row {
-    display: flex;
-    flex-direction: row;
-}
-
-.logo-first-row > img, 
-.logo-second-row > img {
-    width: 23%;
 }
