@@ -28,7 +28,7 @@
 .jumbotron {
     margin-top: 1rem;
     background-color: #b4d0e7;
-    height: 540px;
+    height: 560px;
 }
 
 .paragraph-jumbotron {
@@ -43,13 +43,14 @@
 
 .img-jumbotron {
     position: absolute;
-    left: 20rem;
-    width: 82%;
+    left: 22rem;
+    width: 73%;
 }
 
 h1 {
     font-size: 4rem;
     margin-bottom: 2rem;
+    padding-top: 2rem;
 }
 
 .text-jumbotron, .text-partner, .text-card {
@@ -58,7 +59,7 @@ h1 {
 }
 
 .text-jumbotron {
-    padding-right: 35rem;
+    padding-right: 37rem;
 }
 
 button.blue {
@@ -76,18 +77,18 @@ button.white {
 
 .icon-jumbotron {
     margin-top: 1rem;
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 
 .margin-large {
-    padding-right: 25rem;
-    padding-left: 25rem;
+    padding-right: 20rem;
+    padding-left: 20rem;
     margin-top: 6rem;
 }
 
 .margin-small {
-    padding-left: 20rem;
-    padding-right: 20rem;
+    padding-left: 18rem;
+    padding-right: 18rem;
 }
 
 h2 {
@@ -117,9 +118,60 @@ label {
     flex-direction: column;
     margin-right: 2rem;
     border: 1px solid black;
-    line-height: 2rem;
     margin-bottom: 2rem;
-    padding: 2rem;
+    padding: 1rem 1rem 3rem 1rem;
+    line-height: 1rem;
+    font-size: 15px;
+}
+
+.icon-choices {
+    padding: 0.5rem 1rem;
+    text-align: center;
+}
+
+.different-one {
+    display: flex;
+    flex-direction: column;
+}
+
+.type-choices {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 22px;
+}
+
+.euro-choices {
+    font-size: 13px;
+    font-weight: bold;
+    padding-bottom: 1rem;
+}
+
+.payment-choices {
+    color: grey;
+    font-size: 13px;
+    padding-bottom: 3rem;
+}
+
+.offer-choices {
+    padding-top: 1rem;
+}
+
+.button-choices {
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.buy-choices {
+    margin-bottom: 2rem;
+}
+
+.advantages-choices {
+    font-weight: bold;
+    margin-top: 2rem;
+}
+
+.check {
+    color: rgb(32, 160, 203);
 }
 
 .partner {
