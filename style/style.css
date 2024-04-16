@@ -32,23 +32,23 @@ header nav {
 .jumbotron {
     margin-top: 1rem;
     background-color: #b4d0e7;
-    height: 600px;
+    height: 540px;
 }
 
 .paragraph-jumbotron {
     display: flex;
     flex-direction: row;
+    position: relative;
 }
 
-.img-jumbotron, .img-partner {
+.img-partner {
     width: 60%;
-    height: 60%;
 }
 
 .img-jumbotron {
-    position: relative;
-    left: 5rem;
-    top: 6rem;
+    position: absolute;
+    left: 20rem;
+    width: 82%;
 }
 
 h1 {
@@ -58,6 +58,11 @@ h1 {
 
 .text-jumbotron, .text-partner, .text-card {
     margin-bottom: 2rem;
+    line-height: 1rem;
+}
+
+.text-jumbotron {
+    padding-right: 35rem;
 }
 
 button.blue {
@@ -74,8 +79,8 @@ button.white {
 }
 
 .icon-jumbotron {
-    margin-top: 3rem;
-    font-size: 3rem;
+    margin-top: 1rem;
+    font-size: 2.5rem;
 }
 
 .margin-large {
