@@ -5,35 +5,34 @@
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-header .top-header, img {
+.top-header {
     display: flex;
     flex-direction: row;
     margin-left: 1rem;
     margin-right: 1rem;
-}
-
-.top-header {
     margin-top: 1rem;
 }
+
 
 .ul-top-header {
     list-style-type: none;
     display: flex;
-    flex-direction: row;
 }
 
 .li-top-header  {
     padding-right: 2rem;
 }
 
-.jumbotron, .navigator, .language{
-    padding-left: 20rem;
-    padding-right: 20rem;
+/* non funziona space-between */
+header nav {
+    display: flex;
+    justify-content: space-between;
 }
 
 .jumbotron {
     margin-top: 1rem;
     background-color: #b4d0e7;
+    height: 600px;
 }
 
 .paragraph-jumbotron {
@@ -42,7 +41,14 @@ header .top-header, img {
 }
 
 .img-jumbotron, .img-partner {
-    width: 65%;
+    width: 60%;
+    height: 60%;
+}
+
+.img-jumbotron {
+    position: relative;
+    left: 5rem;
+    top: 6rem;
 }
 
 h1 {
@@ -72,10 +78,15 @@ button.white {
     font-size: 3rem;
 }
 
-.margin {
+.margin-large {
     padding-right: 25rem;
     padding-left: 25rem;
     margin-top: 6rem;
+}
+
+.margin-small {
+    padding-left: 20rem;
+    padding-right: 20rem;
 }
 
 h2 {
@@ -181,14 +192,15 @@ h4 {
 
 .logo-clients {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 .logo-first-row, .logo-second-row {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 
-.logo-first-row, .logo-second-row, .logo-third-row, .logo-fourth-row > img {
-    width: 10%;
+.logo-first-row > img, 
+.logo-second-row > img {
+    width: 23%;
 }
