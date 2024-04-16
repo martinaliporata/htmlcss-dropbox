@@ -55,7 +55,6 @@ h1 {
 
 .text-jumbotron, .text-partner, .text-card {
     margin-bottom: 2rem;
-    line-height: 1rem;
 }
 
 .text-jumbotron {
@@ -129,9 +128,14 @@ label {
     text-align: center;
 }
 
-.different-one {
+.last-team {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    margin-top: 2rem;
+}
+
+.prova {
+    width: 33%;
 }
 
 .type-choices {
@@ -192,11 +196,11 @@ label {
 .card {
     display: flex;
     flex-direction: column;
-    margin-right: 2rem;
+    margin-right: 4rem;
 }
 
 .img-first-cards, .img-second-cards {
-    width: 80%;
+    width: 18rem;
 }
 
 .first-cards {
@@ -205,6 +209,10 @@ label {
 
 .second-cards {
     margin-bottom: 4rem;
+}
+
+.text-card {
+    padding-right: 1rem;
 }
 
 h4 {
