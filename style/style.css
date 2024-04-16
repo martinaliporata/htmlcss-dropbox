@@ -208,7 +208,7 @@ label {
 }
 
 .second-cards {
-    margin-bottom: 4rem;
+    margin-bottom: 7rem;
 }
 
 .text-card {
@@ -223,8 +223,8 @@ h4 {
 .ul-nav-footer {
     display: flex;
     flex-direction: column;
-    padding-right: 2rem;
     list-style-type: none;
+    margin-right: 2rem;
 }
 
 .navigator {
@@ -234,6 +234,7 @@ h4 {
     background-color: black;
     color: white;
     padding-top: 4rem;
+    padding-bottom: 6rem;
 }
 
 .title-footer {
