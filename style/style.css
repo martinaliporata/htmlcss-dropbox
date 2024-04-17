@@ -8,6 +8,7 @@
 .ul-top-header {
     list-style-type: none;
     display: flex;
+    align-items: center;
 }
 
 .img-top-header {
@@ -25,10 +26,17 @@
     margin-top: 1rem;
 }
 
+.button-header {
+    background-color: #0061ff;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+}
+
 .jumbotron {
     margin-top: 1rem;
     background-color: #b4d0e7;
-    height: 560px;
+    height: 115vh;
 }
 
 .paragraph-jumbotron {
@@ -44,7 +52,7 @@
 .img-jumbotron {
     position: absolute;
     left: 22rem;
-    width: 73%;
+    width: 80%;
 }
 
 h1 {
@@ -75,8 +83,7 @@ button.white {
 }
 
 .icon-jumbotron {
-    margin-top: 1rem;
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 .margin-large {
@@ -90,7 +97,7 @@ button.white {
     padding-right: 18rem;
 }
 
-h2 {
+h2.margin2 {
     font-size: 2.5rem;
     margin-bottom: 2rem;
     margin-top: 2rem;
@@ -215,32 +222,46 @@ label {
     padding-right: 1rem;
 }
 
-h4 {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+h4, .question-icon {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.question-icon {
+    padding-right: 4rem;
 }
 
 .column {
     display: flex;
     flex-direction: column;
-    width: 33%;
+    width: 16vw;
 }
 
 .align {
     display: flex;
     margin-top: 5rem;
+    height: 100vh;
 }
 
-.flex-grow > img {
-    width: 50%;
-    object-fit: cover;
-    position: absolute;
+.align-footer {
+    display: flex;
+    background-color: #b4d0e7;
+    padding: 6rem 27rem;
+    color: #61082b;
+}
 
+/* non si centrano */
+.flex-grow > img {
+    width: 60%;
+    position: absolute;
+    top: 36%;
+    left: 21%;
+    filter: brightness(0) invert(1);
+    align-items: stretch;
 }
 
 .flex-grow {
     flex-grow: 1;
-    width: 246px;
     position: relative;
 }
 
@@ -263,7 +284,20 @@ h4 {
 .grey {
     background-color: #f5f5f5;
     flex-grow: 2;
-    padding: 3rem 3rem 12rem;
+    padding: 2rem;
+}
+
+.grey > img {
+    width: 55%;
+}
+
+.diversa {
+    width: 35vw;
+    background-color:#f5f5f5;
+}
+
+.grey > p {
+    padding-top: 2rem;
 }
 
 .dark-red {
@@ -280,6 +314,15 @@ h4 {
 
 .yellow {
     background-color: #ffd830;
+}
+
+.questions {
+    margin-top: 8rem;
+}
+
+.provona {
+    display: flex;
+    justify-content: space-between;
 }
 
 .ul-nav-footer {
