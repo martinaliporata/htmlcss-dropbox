@@ -231,8 +231,17 @@ h4 {
     margin-top: 5rem;
 }
 
+.flex-grow > img {
+    width: 50%;
+    object-fit: cover;
+    position: absolute;
+
+}
+
 .flex-grow {
     flex-grow: 1;
+    width: 246px;
+    position: relative;
 }
 
 .green {
