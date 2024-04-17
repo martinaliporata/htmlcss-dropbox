@@ -235,12 +235,12 @@ h4, .question-icon {
     display: flex;
     flex-direction: column;
     width: 16vw;
+    height: 85vh;
 }
 
 .align {
     display: flex;
     margin-top: 5rem;
-    height: 100vh;
 }
 
 .align-footer {
@@ -258,6 +258,7 @@ h4, .question-icon {
     left: 21%;
     filter: brightness(0) invert(1);
     align-items: stretch;
+    transform: translate(0%, -50%)
 }
 
 .flex-grow {
