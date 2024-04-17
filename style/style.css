@@ -5,68 +5,15 @@
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.ul-top-header {
-    list-style-type: none;
-    display: flex;
-    align-items: center;
+.margin-large {
+    padding-right: 20rem;
+    padding-left: 20rem;
+    margin-top: 6rem;
 }
 
-.img-top-header {
-    margin-right: 2rem;
-}
-
-.li-top-header  {
-    padding-right: 2rem;
-}
-
-.nav-header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-top: 1rem;
-}
-
-.button-header {
-    background-color: #0061ff;
-    color: white;
-    border: none;
-    padding: 0.5rem 1rem;
-}
-
-.jumbotron {
-    margin-top: 1rem;
-    background-color: #b4d0e7;
-    height: 115vh;
-}
-
-.paragraph-jumbotron {
-    display: flex;
-    flex-direction: row;
-    position: relative;
-}
-
-.img-partner {
-    width: 60%;
-}
-
-.img-jumbotron {
-    position: absolute;
-    left: 22rem;
-    width: 80%;
-}
-
-h1 {
-    font-size: 4rem;
-    margin-bottom: 2rem;
-    padding-top: 2rem;
-}
-
-.text-jumbotron, .text-partner, .text-card {
-    margin-bottom: 2rem;
-}
-
-.text-jumbotron {
-    padding-right: 37rem;
+.margin-narrow {
+    padding-left: 18rem;
+    padding-right: 18rem;
 }
 
 button.blue {
@@ -82,25 +29,93 @@ button.white {
     background-color: white;
 }
 
-.icon-jumbotron {
+h3 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 22px;
+}
+
+/* Da qui inizia l'header */
+.nav-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.logo {
+    margin-right: 2rem;
+}
+
+.nav-header > ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+.nav-header ul li {
+    padding-right: 1.5rem;
+}
+
+.button-header {
+    background-color: #0061ff;
+    color: white;
+    border: none;
+    width: 4rem;
+    height: 2rem;
+}
+
+.jumbo {
+    margin-top: 1rem;
+    background-color: #b4d0e7;
+    height: 115vh;
+}
+
+.jumbo > h1 {
+    font-size: 4rem;
+    margin-bottom: 2rem;
+    padding-top: 2rem;
+}
+
+.jumbo > div {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.text-jumbo p {
+    padding-right: 37rem;
+    margin-bottom: 2rem;
+}
+
+.text-jumbo > button.blue {
+    background-color: #0061ff;
+    color: white;
+    padding: 1rem;
+    border: none;
+    margin-bottom: 2rem;
+}
+
+.paragraph-jumbo > img {
+    position: absolute;
+    left: 22rem;
+    width: 80%;
+}
+
+.icon-jumbo {
     font-size: 3rem;
 }
+/* qui finisce l'header */
 
-.margin-large {
-    padding-right: 20rem;
-    padding-left: 20rem;
-    margin-top: 6rem;
-}
-
-.margin-small {
-    padding-left: 18rem;
-    padding-right: 18rem;
-}
-
-h2.margin2 {
-    font-size: 2.5rem;
+/* Da qui inizia il main */
+.section-title {
     margin-bottom: 2rem;
     margin-top: 2rem;
+    font-size: 2.5rem;
+}
+
+label {
+    padding-right: 2rem;
 }
 
 .multiple-choice {
@@ -110,16 +125,12 @@ h2.margin2 {
     margin-bottom: 2rem;
 }
 
-label {
-    padding-right: 2rem;
-}
-
-.choices, .clients-paragraph {
+.choices {
     display: flex;
     flex-direction: row;
 }
 
-.team {
+.choices > section {
     display: flex;
     flex-direction: column;
     margin-right: 2rem;
@@ -133,22 +144,6 @@ label {
 .icon-choices {
     padding: 0.5rem 1rem;
     text-align: center;
-}
-
-.last-team {
-    display: flex;
-    flex-direction: row;
-    margin-top: 2rem;
-}
-
-.prova {
-    width: 33%;
-}
-
-.type-choices {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    font-size: 22px;
 }
 
 .euro-choices {
@@ -185,29 +180,37 @@ label {
     color: rgb(32, 160, 203);
 }
 
+.last-team {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+}
+
+.sales-button {
+    width: 33%;
+}
+
 .partner {
     display: flex;
     flex-direction: row;
     margin-top: 6rem;
 }
 
+.partner > img {
+    width: 60%;
+}
+
 .paragraph-partner {
     margin-left: 2rem;
+}
+
+.text-partner, .text-card {
+    margin-bottom: 2rem;
 }
 
 .first-cards, .second-cards {
     display: flex;
     flex-direction: row;
-}
-
-.card {
-    display: flex;
-    flex-direction: column;
-    margin-right: 4rem;
-}
-
-.img-first-cards, .img-second-cards {
-    width: 18rem;
 }
 
 .first-cards {
@@ -218,17 +221,23 @@ label {
     margin-bottom: 7rem;
 }
 
-.text-card {
+.first-cards > article, .second-cards > article {
+    display: flex;
+    flex-direction: column;
+    margin-right: 4rem;
+}
+
+.second-cards article img, .first-cards article img {
+    width: 18rem;
+}
+
+.second-cards article p, .first-cards article p {
     padding-right: 1rem;
 }
 
-h4, .question-icon {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-}
-
-.question-icon {
-    padding-right: 4rem;
+.clients {
+    display: flex;
+    margin-top: 5rem;
 }
 
 .column {
@@ -237,20 +246,6 @@ h4, .question-icon {
     width: 16vw;
     height: 85vh;
 }
-
-.align {
-    display: flex;
-    margin-top: 5rem;
-}
-
-.align-footer {
-    display: flex;
-    background-color: #b4d0e7;
-    padding: 6rem 27rem;
-    color: #61082b;
-    align-items: center;
-}
-
 .flex-grow > img {
     width: 60%;
     position: absolute;
@@ -258,7 +253,7 @@ h4, .question-icon {
     left: 50%;
     filter: brightness(0) invert(1);
     align-items: stretch;
-    transform: translate(0%, -50%)
+    transform: translate(0%, -50%);
     transform: translate(-50%, -50%);
 }
 
@@ -283,6 +278,11 @@ h4, .question-icon {
     background-color: #ff1c1c;
 }
 
+.different-column {
+    width: 35vw;
+    background-color:#f5f5f5;
+}
+
 .grey {
     background-color: #f5f5f5;
     flex-grow: 2;
@@ -291,11 +291,6 @@ h4, .question-icon {
 
 .grey > img {
     width: 55%;
-}
-
-.diversa {
-    width: 35vw;
-    background-color:#f5f5f5;
 }
 
 .grey > p {
@@ -318,23 +313,51 @@ h4, .question-icon {
     background-color: #ffd830;
 }
 
-.questions {
+.clients-footer {
+    display: flex;
+    background-color: #b4d0e7;
+    color: #61082b;
+    align-items: baseline;
+    padding: 6rem 20rem;
+}
+
+.clients-footer > h2 {
+    width: 34rem;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.clients-footer > button {
+    background-color: white;
+    color: black;
+    border: none;
+    width: 17rem;
+    margin: auto;
+    height: 2rem;
+}
+
+.box-questions {
     margin-top: 8rem;
 }
 
-.provona {
+.question {
     display: flex;
     justify-content: space-between;
 }
 
-.ul-nav-footer {
-    display: flex;
-    flex-direction: column;
-    list-style-type: none;
-    margin-right: 2rem;
+.question-icon {
+    padding-right: 4rem;
 }
 
-.navigator {
+h4, .question-icon {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+/* qui finisce il main */
+
+/* Da qui inizia il footer */
+.nav {
     display: flex;
     flex-direction: row;
     margin-top: 10rem;
@@ -344,12 +367,22 @@ h4, .question-icon {
     padding-bottom: 6rem;
 }
 
-.title-footer {
-    padding-bottom: 1.5rem;
+.nav-footer nav ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    margin-right: 2rem;
 }
 
-.li-footer {
+.nav-footer nav ul li {
     padding-bottom: 1rem;
+}
+
+.nav-footer h3 {
+    padding-bottom: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 22px;
 }
 
 .language {
@@ -358,3 +391,4 @@ h4, .question-icon {
     padding-top: 2rem;
     padding-bottom: 2rem;
 }
+/* qui finisce il footer */
