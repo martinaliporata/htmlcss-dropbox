@@ -77,7 +77,7 @@ h3 {
     padding-top: 2rem;
 }
 
-.jumbo > div {
+.paragraph-jumbo {
     display: flex;
     flex-direction: row;
     position: relative;
@@ -111,7 +111,7 @@ h3 {
 .section-title {
     margin-bottom: 2rem;
     margin-top: 2rem;
-    font-size: 2.5rem;
+    font-size: 3rem;
 }
 
 label {
@@ -180,14 +180,22 @@ label {
     color: rgb(32, 160, 203);
 }
 
+.hr-mid-width {
+    width: 25%;
+}
+
+.grey .hr-mid-width {
+    margin-top: 2rem;
+}
+
 .last-team {
     display: flex;
     flex-direction: row;
     margin-top: 2rem;
 }
 
-.sales-button {
-    width: 33%;
+.paragraph-last-team {
+    width: 75%;
 }
 
 .partner {
@@ -206,6 +214,18 @@ label {
 
 .text-partner, .text-card {
     margin-bottom: 2rem;
+}
+
+.button-partner {
+    width: 9rem;
+}
+
+.operations {
+    margin-top: 6rem;
+}
+
+.operations > .section-title {
+    font-size: 2.5rem;
 }
 
 .first-cards, .second-cards {
@@ -332,7 +352,7 @@ label {
     background-color: white;
     color: black;
     border: none;
-    width: 17rem;
+    width: 15rem;
     margin: auto;
     height: 2rem;
 }
@@ -388,7 +408,11 @@ h4, .question-icon {
 .language {
     background-color: black;
     color: white;
-    padding-top: 2rem;
     padding-bottom: 2rem;
+}
+
+.hr-small-width {
+    width: 15%;
+    margin-bottom: 2rem;
 }
 /* qui finisce il footer */
